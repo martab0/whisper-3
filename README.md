@@ -48,20 +48,28 @@ To update the package to the latest version of this repository, please run:
 
 You also need the command-line tool [`ffmpeg`](https://ffmpeg.org/) to be installed on your system, which is available from most package managers:
 
+* on Ubuntu or Debian
 ```bash
-# on Ubuntu or Debian
 sudo apt update && sudo apt install ffmpeg
+```
 
-# on Arch Linux
+* on Arch Linux
+```bash
 sudo pacman -S ffmpeg
+```
 
-# on MacOS using Homebrew (https://brew.sh/)
+* on MacOS using Homebrew (https://brew.sh/)
+```bash
 brew install ffmpeg
+```
 
-# on Windows using Chocolatey (https://chocolatey.org/)
+* on Windows using Chocolatey (https://chocolatey.org/)
+```bash
 choco install ffmpeg
+```
 
-# on Windows using Scoop (https://scoop.sh/)
+* on Windows using Scoop (https://scoop.sh/)
+```bash
 scoop install ffmpeg
 ```
 
