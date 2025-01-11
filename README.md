@@ -15,7 +15,7 @@
   
 ## General info
 
-**Whisper** is a general-purpose model of speech recognition. It trained on a large dataset of diverse audio. It is also a multitasking model that recognizes, translates multilingual speech, and identifies language.
+**Whisper** is a general-purpose model that recognizes speech, identifies language, and translates multilingual speech. It is trained on a large dataset of diverse audio.
 
 ## Approach
 
@@ -32,11 +32,13 @@ These tasks are jointly represented as a sequence of tokens to be predicted by t
 
 ## Setup
 
-You should use Python 3.8-3.11 and recent PyTorch versions, although we used Python 3.9.9 and [PyTorch](https://pytorch.org/) 1.10.1 to train and test our models.The codebase also depends on a few Python packages, most notably [OpenAI's tiktoken](https://github.com/openai/tiktoken) for their fast tokenizer implementation. You can download and install (or update to) the latest release of Whisper with the following command:
+You can use Python 3.8-3.11 and recent PyTorch versions, although we used Python 3.9.9 and [PyTorch](https://pytorch.org/) 1.10.1 to train and test our models.The codebase also depends on a few Python packages, most notably [OpenAI's tiktoken](https://github.com/openai/tiktoken) for their fast tokenizer implementation. 
+
+You can download and install (or update to) the latest release of Whisper with the following command:
 
     pip install -U openai-whisper
 
-Alternatively, the following command will pull and install the latest commit from this repository, along with its Python dependencies:
+Alternatively, use the following command to pull and install the latest commit from this repository, along with its Python dependencies:
 
     pip install git+https://github.com/openai/whisper.git 
 
@@ -44,7 +46,7 @@ To update the package to the latest version of this repository, please run:
 
     pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
 
-It also requires the command-line tool [`ffmpeg`](https://ffmpeg.org/) to be installed on your system, which is available from most package managers:
+You also need the command-line tool [`ffmpeg`](https://ffmpeg.org/) to be installed on your system, which is available from most package managers:
 
 ```bash
 # on Ubuntu or Debian
@@ -119,7 +121,7 @@ See [tokenizer.py](https://github.com/openai/whisper/blob/main/whisper/tokenizer
 
 ### Python usage
 
-Transcription can also be performed within Python: 
+You can alo run transcription within Python: 
 
 ```python
 import whisper
