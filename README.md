@@ -2,18 +2,16 @@
 
 ## Table of contents
 
-- [Whisper](#whisper)
-  - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
-  - [Approach](#approach)
-  - [Setup](#setup)
-  - [Available models and languages](#available-models-and-languages)
-  - [Usage](#usage)
-    - [Command-line usage](#command-line-usage)
-    - [Python usage](#python-usage)
-  - [More examples](#more-examples)
-  - [More info](#more-info)
-  - [License](#license)
+- [General info](#general-info)
+- [Approach](#approach)
+- [Setup](#setup)
+- [Available models and languages](#available-models-and-languages)
+- [Usage](#usage)
+  - [Command-line usage](#command-line-usage)
+  - [Python usage](#python-usage)
+- [More examples](#more-examples)
+- [More info](#more-info)
+- [License](#license)
   
 ## General info
 
